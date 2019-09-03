@@ -1,8 +1,9 @@
 {
   "name": "node-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/readme-logo.png\" width=\"250\" align=\"right\">",
+  "main": "server/index.js",
+  "proxy":"http://localhost:3001",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scorpioeric-dev/node-2-afternoon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Scorpioeric-dev/node-2-afternoon/issues"
+  },
+  "homepage": "https://github.com/Scorpioeric-dev/node-2-afternoon#readme"
 }
